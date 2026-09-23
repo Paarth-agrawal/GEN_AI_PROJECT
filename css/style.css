@@ -1708,11 +1708,11 @@ p:last-child {
     right: 0;
     bottom: 0;
     flex-direction: column;
-    background: rgba(11, 14, 20, 0.97);
-    backdrop-filter: var(--glass-blur);
-    -webkit-backdrop-filter: var(--glass-blur);
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-deep);
     padding: var(--sp-xl);
-    gap: var(--sp-md);
+    gap: var(--sp-xs);
     opacity: 0;
     visibility: hidden;
     transition: opacity var(--transition-base),
@@ -1725,8 +1725,17 @@ p:last-child {
   }
 
   .nav-links a {
-    font-size: var(--fs-body);
-    padding: var(--sp-sm) 0;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
+    padding: var(--sp-md) var(--sp-lg);
+    width: 100%;
+    text-align: center;
+    border-radius: var(--radius-sm);
+    transition: background var(--transition-fast), color var(--transition-fast);
+  }
+
+  .nav-links a:hover,
+  .nav-links a.active {
+    background: var(--bg-elevated);
   }
 
   .hero {
