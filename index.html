@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO & Meta — populated by script.js from content.js -->
+  <title>AI Movie Studio | Life in 2050</title>
+  <meta name="description" content="A college group project exploring AI-generated filmmaking.">
+  <meta name="theme-color" content="#0B0E14">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI Movie Studio | Life in 2050">
+  <meta property="og:description" content="A college group project exploring AI-generated filmmaking.">
+  <meta property="og:image" content="assets/images/og-image.webp">
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230B0E14'/><text x='16' y='22' font-size='18' text-anchor='middle' fill='%23D4943A'>▶</text></svg>">
+
+  <!-- Fonts: Bebas Neue (display) + Source Sans 3 (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Skip to content (accessibility) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════════════════════ -->
+  <header class="site-nav" role="banner">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="#hero" class="nav-logo" aria-label="AI Movie Studio — Home">
+        <span class="logo-accent">AI</span> Movie Studio
+      </a>
+
+      <button class="nav-toggle"
+              aria-expanded="false"
+              aria-controls="nav-menu"
+              aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul id="nav-menu" class="nav-links" role="list">
+        <li><a href="#hero" data-nav="hero">Home</a></li>
+        <li><a href="#story" data-nav="story">Story</a></li>
+        <li><a href="#characters" data-nav="characters">Characters</a></li>
+        <li><a href="#timeline" data-nav="timeline">Timeline</a></li>
+        <li><a href="#trailer" data-nav="trailer">Trailer</a></li>
+        <li><a href="#ai-studio" data-nav="ai-studio">AI Studio</a></li>
+        <li><a href="#evaluation" data-nav="evaluation">Evaluation</a></li>
+        <li><a href="#credits" data-nav="credits">Credits</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════════════
+       MAIN CONTENT
+       ═══════════════════════════════════════════════════════ -->
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
+      </div>
+      <div class="hero-content">
+        <!-- Populated by script.js -->
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section id="story" class="section" aria-labelledby="story-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="story-title">The Story</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">A glimpse into the world of 2050</p>
+        </div>
+        <div id="story-content" class="story-grid">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CHARACTERS -->
+    <section id="characters" class="section section--alt" aria-labelledby="characters-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="characters-title">Characters</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">The faces of tomorrow</p>
+        </div>
+        <div id="characters-grid" class="characters-grid reveal-stagger">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section id="timeline" class="section" aria-labelledby="timeline-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="timeline-title">Scene Timeline</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">The story unfolds scene by scene</p>
+        </div>
+        <div id="timeline-content" class="timeline-wrapper">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAILER -->
+    <section id="trailer" class="section section--alt" aria-labelledby="trailer-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="trailer-title">Trailer</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">Watch the vision come to life</p>
+        </div>
+        <div id="trailer-content" class="trailer-wrapper">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- AI STUDIO -->
+    <section id="ai-studio" class="section" aria-labelledby="pipeline-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="pipeline-title">AI Production Studio</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">The tools and process behind every frame</p>
+        </div>
+        <div id="pipeline-grid" class="pipeline-grid reveal-stagger">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMPT ENGINEERING -->
+    <section id="prompt-engineering" class="section section--alt" aria-labelledby="prompt-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="prompt-title">Prompt Engineering</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">From simple requests to optimized instructions</p>
+        </div>
+        <div id="prompt-content">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOL COMPARISON -->
+    <section id="tool-comparison" class="section" aria-labelledby="comparison-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="comparison-title">AI Tool Comparison</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">Why we chose each tool for the job</p>
+        </div>
+        <div id="comparison-content">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- HUMAN CONTRIBUTION -->
+    <section id="human-contribution" class="section section--alt" aria-labelledby="contribution-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="contribution-title">Human Contribution</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">AI is a creative tool, not a replacement for human judgment</p>
+        </div>
+        <div id="contribution-content">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CRITICAL EVALUATION -->
+    <section id="evaluation" class="section" aria-labelledby="evaluation-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="evaluation-title">Critical Evaluation</h2>
+          <hr class="section-divider">
+          <p class="section-subtitle">Honest assessment of AI capabilities and limitations</p>
+        </div>
+        <div id="evaluation-content">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CREDITS -->
+    <section id="credits" class="section section--alt" aria-labelledby="credits-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="credits-title">Credits</h2>
+          <hr class="section-divider">
+        </div>
+        <div id="credits-content" class="credits-container">
+          <!-- Populated by script.js -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container" id="footer-content">
+      <!-- Populated by script.js -->
+    </div>
+  </footer>
+
+  <!-- Scripts: content first (data), then logic -->
+  <script src="js/content.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
